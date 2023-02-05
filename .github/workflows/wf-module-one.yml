@@ -1,0 +1,13 @@
+name: module-one-workflow
+run-name: Deploy to ${{ inputs.deploy_target }} by @${{ github.actor }}
+on: 
+  push:
+    branches:
+      - main
+jobs:
+  pushtomain:
+    runs-on: linux
+    steps:
+      steps:
+        name: Run JSACTION
+        uses: ./.github/workflows
