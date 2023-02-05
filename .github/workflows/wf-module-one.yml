@@ -6,7 +6,7 @@ on:
       - main
 jobs:
   pushtomain:
-    runs-on: linux
+    runs-on: ubuntu-latest
     steps:
-      - name: Run JSACTION
+      - name: JSACTION
         uses: ./.github/workflows
