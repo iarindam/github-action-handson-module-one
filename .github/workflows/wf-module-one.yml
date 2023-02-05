@@ -8,6 +8,5 @@ jobs:
   pushtomain:
     runs-on: linux
     steps:
-      step:
-        - name: Run JSACTION
-          uses: ./.github/workflows
+      - name: Run JSACTION
+        uses: ./.github/workflows
